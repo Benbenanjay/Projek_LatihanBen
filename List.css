@@ -1,0 +1,58 @@
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-image: url(images/backgroundLatihan.jpg);
+          background-repeat: no-repeat;
+          background-size: cover; /* ini bikin gambar nutup full screen tanpa kena mengzoom */
+          background-position: center; /* ini bikin posisi gambarnya pas*/
+          background-attachment: fixed; /* ini opsional aja agar efek scroll nya agak halus*/
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 10vh; /* ini untuk atur posisi tabel mau terlalu atas, tengah, atau bawah*/
+        }
+
+
+        /* Gaya untuk tabel */
+        table {
+          width: 80%;
+          border-collapse: collapse;
+          margin: 20px Auto;
+        }
+
+        /* Gaya untuk judul tabel */
+        th {
+          background-color: #4CAF50;
+          /* Warna latar belakang hijau untuk judul */
+
+          color: white;
+          /* Warna teks putih */
+          padding: 10px;
+          text-align: center;
+        }
+
+        /* Gaya untuk data tabel */
+        td {
+          padding: 8px;
+          text-align: center;
+          border-bottom: 1px solid #ddd;
+          /* Garis bawah pada setiap baris */
+        }
+
+        /* Warna selang-seling pada baris data */
+        tr:nth-child(odd) {
+          background-color: #f2f2f2;
+          /* Warna abu-abu terang untuk baris ganjil */
+        }
+
+        tr:nth-child(even) {
+          background-color: #747474ff;
+          /* Warna putih untuk baris genap */
+        }
+
+        /* Gaya untuk tabel ketika disorot */
+        tr:hover {
+          background-color: #ddd;
+          /* Warna latar belakang saat baris disorot */
+        }

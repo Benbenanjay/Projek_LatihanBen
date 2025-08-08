@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tambah Peserta</title>
+    <link rel="stylesheet" href="tambah.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <section>
+            <h1>Form Tambah Peserta</h1>
+            <form action="InputData_ListPersertaJson.php" method="post">
+
+                <div class="form-group">
+                    <input type="text" id="kode" name="kode" placeholder="Kode Peserta" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="nama" name="nama" placeholder="Nama Peserta" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email" name="email" placeholder="Email Peserta" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="number" name="nohp" placeholder="Nomor HP" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="alamat" name="alamat" placeholder="Alamat Peserta" required>
+                </div>
+                <button type="submit">Simpan</button>
+                <a href="Menu_ListPeserta.php">Lihat List Peserta</a>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

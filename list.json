@@ -1,0 +1,50 @@
+[
+    {
+        "no": 1,
+        "kode": "P-001",
+        "nama": "Joko Anwar",
+        "email": "Jokan@anjay.com",
+        "nohp": "0812345678910",
+        "alamat": "Kota Bekasi, Pondok Gede"
+    },
+    {
+        "no": 2,
+        "kode": "P-002",
+        "nama": "Jaka",
+        "email": "jak@gmail.com",
+        "nohp": "08972646155",
+        "alamat": "Bekasi, Jatiwarna"
+    },
+    {
+        "no": 3,
+        "kode": "P-003",
+        "nama": "Hanya",
+        "email": "hanya@gmail.com",
+        "nohp": "089766465376",
+        "alamat": "Bekasi, Pondok Gede"
+    },
+    {
+        "no": 4,
+        "kode": "P-004",
+        "nama": "Coki",
+        "email": "cok@gmail.com",
+        "nohp": "089654638876",
+        "alamat": "Bogor, YONDAKTAW"
+    },
+    {
+        "no": 5,
+        "kode": "P-005",
+        "nama": "Handoko",
+        "email": "han12@gmail.com",
+        "nohp": "08976546354",
+        "alamat": "Bogor, Jawa Barat"
+    },
+    {
+        "no": 6,
+        "kode": "P-006",
+        "nama": "Putri",
+        "email": "put@gmail.com",
+        "nohp": "0896454753",
+        "alamat": "Jawa Barat, Bekasi"
+    }
+]
